@@ -1,0 +1,152 @@
+// @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700&display=swap");
+// @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap");
+
+body,
+html {
+  margin: 0 auto;
+  padding: 0;
+  // font-family: "Raleway", sans-serif;
+  // font-family: 'Poppins', sans-serif;
+  font-family: "Lato", sans-serif !important;
+  font-size: 16px;
+}
+
+.ant-form-item-label {
+  padding-bottom: 3px !important;
+
+  label {
+    margin-bottom: 0;
+    font-size: 14px;
+  }
+}
+
+.anticon {
+  vertical-align: 0px;
+}
+
+.masudulkabir {
+  background-color: red;
+}
+
+.ant-table-selection-column {
+  width: 1%;
+}
+
+.table {
+  color: rgba(0, 0, 0, 0.65);
+  font-size: 14px;
+  font-variant: tabular-nums;
+  line-height: 1.5;
+  list-style: none;
+  font-feature-settings: "tnum";
+  font-family: "Lato", sans-serif !important;
+  margin-bottom: 0;
+
+  td,
+  th {
+    /* border: none; */
+    padding: 1rem;
+    overflow-wrap: break-word;
+  }
+
+  thead {
+    background: #fafafa;
+    th {
+      border-bottom: 1px solid #e8e8e8;
+      transition: background 0.3s ease;
+      font-weight: 500;
+      color: rgba(0, 0, 0, 0.85);
+      font-size: 14px;
+      line-height: 21px;
+    }
+  }
+
+  tbody {
+    /* tr {
+      transition: background 0.3s ease;
+      &:hover {
+        background-color: #e6f7ff;
+      }
+    }
+    td {
+      border-bottom: 1px solid #e8e8e8;
+      transition: background 0.3s;
+      font-weight: 400;
+    } */
+  }
+}
+
+.table-hovered {
+  tbody {
+    tr {
+      transition: background 0.3s ease;
+      &:hover {
+        background-color: #e6f7ff;
+      }
+    }
+    td {
+      border-bottom: 1px solid #e8e8e8;
+      transition: background 0.3s;
+      font-weight: 400;
+    }
+  }
+}
+
+.table-condensed {
+  td,
+  th {
+    padding: 0.65rem;
+  }
+}
+
+.ant-input-group {
+  button {
+    i {
+      color: #6c757d;
+    }
+  }
+
+  .ant-btn-icon-only > i {
+    line-height: normal !important;
+    vertical-align: auto !important;
+  }
+}
+
+.page--title {
+  padding: 16px 0 16px 0 !important;
+
+  .ant-page-header {
+    padding: 8px 0 0 0;
+  }
+}
+
+.status-menu .ant-menu-item,
+.status-menu .ant-menu-submenu-title {
+  padding: 0 35px;
+}
+
+.info-block {
+  display: flex;
+  &__icon {
+    background-color: #f1c40f;
+    width: 90px;
+    height: 90px;
+    box-sizing: border-box;
+    margin-right: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    i {
+      font-size: 60px;
+      color: #ffffff;
+    }
+  }
+  &__info {
+    a {
+      font-size: 14px;
+      line-height: normal;
+    }
+  }
+}
